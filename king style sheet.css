@@ -1,5 +1,5 @@
-.royalBG {background-color:#fff;padding:5px;border:#ccc 1px solid;width:420px;height:350px;margin-top:20px;margin-bottom:20px;}
-.royalIMGBG {background-color:#f3f3f3;padding:5px;height:350px;margin-top:-5px;width:175px;margin-left:-5px;border-right:#ccc 1px solid;float:left;overflow:hidden;}
+.royalBG {background-color:#fff;padding:5px;border:#ccc 1px solid;width:400px;height:500px;margin-top:20px;margin-bottom:20px;}
+.royalIMGBG {background-color:#f3f3f3;padding:5px;height:500px;margin-top:-5px;width:175px;margin-left:-5px;border-right:#ccc 1px solid;float:left;overflow:hidden;}
 .royalIMG {background-image:url(https://placehold.it/175x350);height:350px;width:175px;-webkit-transform:scale(1);transition:.5s;transition-delay:.1s;}
 .royalIMGBG:hover .royalIMG {-webkit-transform:scale(1.1);-webkit-filter:grayscale(80%);transition:.5s;}
 .royalIMGBody {border:#ccc 1px solid;height:328px;margin-top:-340px;opacity:.9999;margin-left:-1px;overflow:hidden;width:151px;}
