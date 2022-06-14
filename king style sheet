@@ -1,0 +1,21 @@
+.royalBG {background-color:#fff;padding:5px;border:#ccc 1px solid;width:420px;height:350px;margin-top:20px;margin-bottom:20px;}
+.royalIMGBG {background-color:#f3f3f3;padding:5px;height:350px;margin-top:-5px;width:175px;margin-left:-5px;border-right:#ccc 1px solid;float:left;overflow:hidden;}
+.royalIMG {background-image:url(https://placehold.it/175x350);height:350px;width:175px;-webkit-transform:scale(1);transition:.5s;transition-delay:.1s;}
+.royalIMGBG:hover .royalIMG {-webkit-transform:scale(1.1);-webkit-filter:grayscale(80%);transition:.5s;}
+.royalIMGBody {border:#ccc 1px solid;height:328px;margin-top:-340px;opacity:.9999;margin-left:-1px;overflow:hidden;width:151px;}
+.royalShape {background-color:#fff;height:350px;width:152px;padding-top:250px;margin-top:330px;-webkit-clip-path: polygon(0 42%, 100% 0, 100% 100%, 0% 100%);clip-path: polygon(0 42%, 100% 0, 100% 100%, 0% 100%);transition:.5s;transition-delay:.1s;}
+.royalIMGBG:hover .royalShape {margin-top:-255px;transition:.5s;transition-delay:.2s;}
+.royalShapeBody {height:330px;width:152px;opacity:0;transition:.3s;}
+.royalIMGBG:hover .royalShapeBody {opacity:1;transition:.3s;transition-delay:.5s;}
+.royalCrown {color:#ddd;margin-top:35px;font-size:45px;line-height:45px;}
+.royalAv {margin-top:10px;}
+.royalAv IMG {border-radius:100%;width:100px;}
+.royalTag {margin-top:10px;font-size:10px;height:12px;text-align:center;width:120px;border-bottom:#eee 1px solid;padding:2px 5px;line-height:12px;font-size:9px;font-family:trebuchet ms;text-transform:uppercase;color:#666;}
+.royalTag .fa {font-size:12px;line-height:12px;float:left;color:#666;}
+.royalTag a {text-decoration:none;font-size:9px;font-family:trebuchet ms;text-transform:uppercase;}
+.royalNotes {color:#aaa;font-family:trebuchet ms;font-size:9px;text-transform:uppercase;padding:5px;text-align:justify;width:120px;margin-top:5px;overflow:auto;line-height:13px;height:67px;}
+.royalLyrics {background-color:#666;color:#fff;padding:2px;font-family:trebuchet ms;font-size:7px;text-transform:uppercase;letter-spacing:1px;width:230px;margin-left:185px;height:9px;line-height:9px;}
+.royalBody {padding:10px;padding-right:7px;text-align:justify;margin-left:3px;width:217px;font-size:10px;line-height:13px;font-family:arial;color:#1a1a1a;overflow:auto;height:304px;}
+.royalBody b {color:#666;font-family:comfortaa;}
+.royalBody::-webkit-scrollbar {width:7px}
+.royalBody::-webkit-scrollbar-thumb {width:1px;background-color:#ccc;border:#fff 3px solid;}
