@@ -14,8 +14,8 @@
 .royalTag .fa {font-size:12px;line-height:12px;float:left;color:#666;}
 .royalTag a {text-decoration:none;font-size:9px;font-family:trebuchet ms;text-transform:uppercase;}
 .royalNotes {color:#aaa;font-family:trebuchet ms;font-size:9px;text-transform:uppercase;padding:5px;text-align:justify;width:120px;margin-top:5px;overflow:auto;line-height:13px;height:67px;}
-.royalLyricsTop {background-color:#666;color:#fff;padding:2px;font-family:trebuchet ms;font-size:8px;text-transform:uppercase;letter-spacing:1px;width:275x;margin-left:170px;padding-top:3px;height:15px;line-height:12 px;}
-.royalLyricsBottom {background-color:#666;color:#fff;padding:2px;font-family:trebuchet ms;font-size:8px;text-transform:uppercase;letter-spacing:1px;width:275x;margin-left:170px;padding-top:2.5px;height:15px;line-height:12 px;}
+.royalLyricsTop {background-color:#666;color:#fff;padding:2px;font-family:trebuchet ms;font-size:9px;text-transform:uppercase;letter-spacing:1px;width:275x;margin-left:170px;padding-top:3px;height:15px;line-height:12 px;text-align:left;padding-left:10px;}
+.royalLyricsBottom {background-color:#666;color:#fff;padding:2px;font-family:trebuchet ms;font-size:9px;text-transform:uppercase;letter-spacing:1px;width:275x;margin-left:170px;padding-top:2.5px;height:15px;line-height:15 px;text-align:right;padding-right:10px;}
 .royalBody {padding:0px;padding-left:10px;padding-right:10px;text-align:justify;margin-left:0px;width:260px;font-size:10px;line-height:13px; font-Family:arial; color:#1a1a1a; overflow:auto; height:460px;font-size:9px;padding-bottom:4px;}
 .royalBody b {color:#666;font-family:comfortaa;}
 .royalBody::-webkit-scrollbar-thumb {width:1px;background-color:#ccc;border:#fff 3px solid;}
