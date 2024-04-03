@@ -381,7 +381,8 @@ margin-bottom:34px;
     position:absolute;
     background: #076F76;
     top: 0; bottom: 0;
-    left: 0;
+    left: 0; 
+
 
 }
 
@@ -401,6 +402,7 @@ margin-bottom:34px;
     background: #076F76;
     top: 0; bottom: 0;
     left: 0; 
+
 
 }
 
@@ -504,8 +506,6 @@ padding-left:10px;
 }
 
 
-!!!!!!!!!!!!!!!!!
-
 .abilityDetailTabs {
  margin: 8px;
  margin-bottom: 0;
@@ -529,7 +529,6 @@ padding-left:10px;
  font-family: open-sans, sans-serif;
 }
   
-
 
 .my-name, .my-name-2 {
   font: 700 25px/25px "Orbitron";
