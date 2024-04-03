@@ -210,8 +210,19 @@ background-color:#d8d8d8;font-weight:bold; height:fit-content; position: ;border
  max-width:20%; width:fit-content; height:fit-content; background-color:#222;color:#f8f8f8; position: relative; float: right; font-weight:bold; border:1px solid #000;border-radius:24px 24px 24px 24px;text-align:left;margin-right:0px;margin-top:-16px; padding:4px; padding-left:10px;padding-right:10px; text-transform: uppercase;font-size: 9px; font-weight:bold;
 }
   
+  .weap-shell{
+  font: 12px/15px "Karla";
+  color: #333;
+  height: fit-content;
+  overflow: auto;
+  text-align: justify;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  max-width: 430px;
+  }
+
   .weap-text {
-  border-radius:8px 0px 8px 0px;text-align:left; margin:0px; margin-left:0px; margin-top:-1px; padding:4px; padding-left:18px;padding-right:10px; padding-bottom:16px; border:1px solid #000;border-radius:0px 0px 0px 8px; font: 12px/15px "Karla";
+  border-radius:8px 0px 8px 0px;text-align:left; margin:0px; margin-left:0px; margin-top:-1px; padding:10px; padding-left:18px;padding-right:10px; padding-bottom:16px; border:1px solid #000;border-radius:0px 0px 0px 8px; font: 12px/15px "Karla";
   }
   
    .aug-text {
