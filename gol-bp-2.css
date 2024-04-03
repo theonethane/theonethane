@@ -354,17 +354,14 @@ margin-bottom:34px;
     border: 1px solid black;
     padding:-3px;
     margin:3px;
-    font: 7px "Karla";
-
 }  
 
-.mag-bar:before{
+.mag-bar:after{
     content: '';
     position:absolute;
     background: #076F76;
     top: 0; bottom: 0;
     left: 0; 
-
 }
 
 .def-bar {
