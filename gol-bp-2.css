@@ -581,17 +581,18 @@ flex: 1;
     padding:-3px;
 padding-left:60px;
     margin:3px;
+    background: #076F76;
 }  
-
 
 .str-bar-sum:after{
     content: '';
     position: absolute;
-    background: #076F76;
+    background: #00e1ff;
     top: 0; bottom: 0;
     left: 0; 
+height:50%;
+ border-radius: 0px 0px 2px 0px;
 }
-
 
 .mag-bar-sum {
 flex: 1;
@@ -600,15 +601,8 @@ flex: 1;
     padding:-3px;
 padding-left:60px;
     margin:3px;
-}  
 
-.mag-bar-sum:after{
-    content: '';
-    position: absolute;
-    background: #076F76;
-    top: 0; bottom: 0;
-    left: 0; 
-}
+}  
 
 .agl-bar-sum {
 flex: 1;
@@ -617,15 +611,8 @@ flex: 1;
     padding:-3px;
 padding-left:60px;
     margin:3px;
-}  
 
-.agl-bar-sum:after{
-    content: '';
-    position: absolute;
-    background: #076F76;
-    top: 0; bottom: 0;
-    left: 0; 
-}
+}  
 
 .def-bar-sum {
 flex: 1;
@@ -634,12 +621,15 @@ flex: 1;
     padding:-3px;
 padding-left:60px;
     margin:3px;
+    background: #076F76;
 }  
 
-.str-bar-sum:after{
+.def-bar-sum:after{
     content: '';
     position: absolute;
-    background: #076F76;
+    background: #00e1ff;
     top: 0; bottom: 0;
     left: 0; 
+height:50%;
+ border-radius: 0px 0px 2px 0px;
 }
