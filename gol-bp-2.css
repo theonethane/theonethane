@@ -573,3 +573,73 @@ border-radius: 8px 8px 8px 8px;
 .my-name-2 {
   text-align: right;
 }
+
+.str-bar-sum {
+flex: 1;
+    position: relative;
+    border: 1px solid black;
+    padding:-3px;
+padding-left:60px;
+    margin:3px;
+}  
+
+
+.str-bar-sum:after{
+    content: '';
+    position: absolute;
+    background: #076F76;
+    top: 0; bottom: 0;
+    left: 0; 
+}
+
+
+.mag-bar-sum {
+flex: 1;
+    position: relative;
+    border: 1px solid black;
+    padding:-3px;
+padding-left:60px;
+    margin:3px;
+}  
+
+.mag-bar-sum:after{
+    content: '';
+    position: absolute;
+    background: #076F76;
+    top: 0; bottom: 0;
+    left: 0; 
+}
+
+.agl-bar-sum {
+flex: 1;
+    position: relative;
+    border: 1px solid black;
+    padding:-3px;
+padding-left:60px;
+    margin:3px;
+}  
+
+.agl-bar-sum:after{
+    content: '';
+    position: absolute;
+    background: #076F76;
+    top: 0; bottom: 0;
+    left: 0; 
+}
+
+.def-bar-sum {
+flex: 1;
+    position: relative;
+    border: 1px solid black;
+    padding:-3px;
+padding-left:60px;
+    margin:3px;
+}  
+
+.str-bar-sum:after{
+    content: '';
+    position: absolute;
+    background: #076F76;
+    top: 0; bottom: 0;
+    left: 0; 
+}
