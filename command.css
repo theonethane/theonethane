@@ -19,7 +19,7 @@
 }
 @container style(--count: 4) {
   .dice-base::after {
-    content: url('https://i.imgur.com/AhPBkHH.png');
+    content: url('https://i.imgur.com/4qj4AMb.png');
   }
 }
 @container style(--count: 5) {
