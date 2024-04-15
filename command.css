@@ -161,10 +161,31 @@ height:50px;
 font-weight: bold;
 text-align:center;
 align-content:center;
-background-image: url("https://i.imgur.com/2ioixx5.png");
+background-image: url("https://i.imgur.com/iKaw9wJ.png");
     background-size: contain;
     background-repeat: no-repeat;
   background-position: center;
+}
+
+
+
+.statrow cmd-icon {
+  flex: 1;
+  border: 0px solid black;
+  padding: 5px;
+  margin:0px 10px;
+  font-size: 24px;
+height:50px;
+font-weight: bold;
+text-align:center;
+color:white;
+align-content:center;
+background-image: url("https://i.imgur.com/80JZQOr.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  background-position: center;
+padding-top:10px;
+
 }
 
 
@@ -178,11 +199,32 @@ background-image: url("https://i.imgur.com/2ioixx5.png");
 height:50px;
 font-weight: bold;
 text-align:center;
+color:white;
 align-content:center;
-background-image: url("");
+background-image: url("https://i.imgur.com/6R7romi.png");
     background-size: contain;
     background-repeat: no-repeat;
   background-position: center;
+padding-top:16px;
+}
+
+
+.statrow exp-icon {
+  flex: 1;
+  border: 0px solid black;
+  padding: 5px;
+  margin:0px 10px;
+  font-size: 24px;
+color:white;
+height:50px;
+font-weight: bold;
+text-align:center;
+align-content:center;
+background-image: URL("https://i.imgur.com/UCfyoA8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  background-position: center;
+padding-top:4px;
 }
 
 
