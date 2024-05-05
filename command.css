@@ -414,6 +414,13 @@ border: 5px solid #d8d8d8;
 background-color: #d8d8d8;
 }
 
+.characterImage img {
+border-radius: 5px; 
+max-height:300px; 
+max-width:200px;
+vertical-align: middle;
+}
+
 .characterInfo {
 vertical-align: text-top;
 padding:8px;
