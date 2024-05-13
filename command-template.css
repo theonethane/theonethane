@@ -277,25 +277,25 @@ padding:5px;
 }
 
 @container style(--count: 11) {
-  .ip-bar div:nth-child(-n + 10) {
+  .ip-bar div:nth-child(-n + 11) {
     background-color: #076076;
   }
 }
 
 @container style(--count: 12) {
-  .ip-bar div:nth-child(-n + 10) {
+  .ip-bar div:nth-child(-n + 12) {
     background-color: #076076;
   }
 }
 
 @container style(--count: 13) {
-  .ip-bar div:nth-child(-n + 10) {
+  .ip-bar div:nth-child(-n + 13) {
     background-color: #076076;
   }
 }
 
 @container style(--count: 14) {
-  .ip-bar div:nth-child(-n + 10) {
+  .ip-bar div:nth-child(-n + 14) {
     background-color: #076076;
   }
 }
