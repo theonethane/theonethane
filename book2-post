@@ -1,8 +1,10 @@
 :root {
+  --framework-color:#333;
+  --text-color:#fff;
+  --hp-fill-color: #076076;
   --stat-color: #076076;
   --cmd-color: 7,96,118;
   --mastered-color: 222,104,0;
-  --enable-color: #fff;
   --prv-color: #929292;
 }
 
@@ -17,24 +19,22 @@
 }
 
 .CharacterName{
- background-color: #333;
- height: 30px;
- color: #fff;
+  height: 30px;
+ color: var(--text-color);
  justify-content: end;
  font-weight: bold;
  align-items: center;
  border-radius: 0px 0px 0px 8px;
  font-family: Orbitron, sans-serif;
  font-size: 20px;
- border-bottom: 2px solid #333;
- border-left: 2px solid #333;
+ background-color: var(--framework-color);
+ border-bottom: 2px solid var(--framework-color);
+ border-left: 2px solid var(--framework-color);
  margin-left:45px;
  padding-right:10px !important;
- background-color: #333;
  height: 30px;
  display:flex;
  font-weight:bold;
- align-items: center;
  padding-right: 8px;
  margin-left: 40px;
 }
@@ -44,7 +44,7 @@
   margin: 10px;
   background: #f9f9f9;
   border: 4px solid #d8d8d8;
-  font-size: 12px;
+  font-size: 14px;
   vertical-align: middle;
 }
 
@@ -62,12 +62,10 @@ padding: 6px;
 margin: 6px;
 margin-bottom:8px;
 border-radius: 5px;
-background-color: #333;
-color: white;
+background-color: var(--framework-color);
+color: var(--text-color);
 flex-grow: 1;
-text-align:center;   vertical-align: bottom;
-  
-
+text-align:center;  
 }
 
 
@@ -82,21 +80,17 @@ font-weight: 600;
 padding: 5px;
 margin: 5px;
 border-radius: 5px;
-background-color: #333;
-color: white;
+background-color: var(--framework-color);
+color: var(--text-color);
 flex-grow: 2;
 text-align:center;
 }
 
 .hp-bar {
- width: 100%;
  height: 30px;
  background-color: #BE2F0B;
  display: block;
- color:weight;
 font-weight:bold;
-justify-content: space-around;
-padding: 0px;
 margin: 5px;
 flex:8;
 
@@ -104,21 +98,15 @@ flex:8;
 
 .hp-bar-fill {
  text-align:right;
- font-size:18px;
- font-weight:bold;
- justify-content: space-around;
  padding-left:20px;
  width: calc((var(--current-hp) / var(--max-hp)) * 93%);
  height: 30px;
- background-color: var(--stat-color);
-
-
+ background-color: var(--hp-fill-color);
 }
 
 .hp-bar-num{
  text-align:left;
  font-size:18px;
-
 }
 
 .hp-bar p::after {
@@ -127,19 +115,19 @@ flex:8;
 
 .top-down {
   padding-top:0px;
- width: 100%;
  display: flex;
  flex-direction: column;
  margin:8px 0px;
  text-align:center;
- color:white;
+ color:var(--text-color);
 }
 
 .top-down cd {
 font-weight: 600;
 padding: 5px 40px;
 border-radius: 5px;
-background-color: #333;
+  margin-left:-15px;
+background-color: var(--framework-color);
 text-align:center;
    cursor: pointer;
 }
@@ -148,9 +136,9 @@ text-align:center;
 font-weight: 600;
 padding: 5px 30px;
 border-radius: 5px;
-background-color: #333;
-text-align:center;
-   cursor: pointer;
+background-color: var(--framework-color);
+cursor: pointer;
+  margin-left:-15px;
 }
 
 .side-by-side {
@@ -174,8 +162,8 @@ width:fit-content;
 padding: 6px 6px;
 margin: 4px;
 border-radius: 5px;
-background-color: #333;
-color: white;
+background-color: var(--framework-color);
+color: var(--text-color);
 text-align: center;
 }
 
@@ -211,7 +199,7 @@ text-align: center;
 
 .cmd {
  background:rgba(var(--cmd-color),calc(var(--active) + 0.5));
- color: white;
+ color: var(--text-color);
  border-radius: 8px 0px 8px 0px;
  padding: 6px;
  font-weight:bold;
@@ -233,7 +221,7 @@ text-align: center;
 
 .prv {
  background:var(--prv-color);
- color: white;
+ color: var(--text-color);
  border-radius: 8px 0px 8px 0px;
  padding: 6px;
  font-weight:bold;
@@ -248,8 +236,8 @@ text-align: center;
 .cmd-text {
   visibility: hidden;
   width: 200px;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--framework-color);
+  color: var(--text-color);
   text-align: left;
   font-size:10px;
   font-weight:normal;
@@ -266,8 +254,8 @@ text-align: center;
 .prv-text {
   visibility: hidden;
   width: 200px;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--framework-color);
+  color: var(--text-color);
   text-align: left;
   font-size:10px;
   font-weight:normal;
@@ -466,7 +454,7 @@ display:flex;
   margin: 5px;
   border-radius: 5px;
   background-color: var(--stat-color);
-  color: white;
+  color: var(--text-color);
   flex-grow: 2;
   text-align:center;
   font-size:14px;
@@ -476,8 +464,8 @@ display:flex;
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 250px;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--framework-color);
+  color: var(--text-color);
   text-align: left !important;
   font-size:10px !important;
   font-weight:normal !important;
