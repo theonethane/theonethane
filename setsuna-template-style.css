@@ -182,13 +182,13 @@ text-align: center;
 }
 
 
-.charactercontainer {
+.container {
  flex:2;
  align-self: stretch;
  height:fit-content;
  }
 
-.charactercontainer2 {
+.container2 {
  flex:1;
  align-self: stretch;
  }
