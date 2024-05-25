@@ -1,4 +1,4 @@
-]<script>
+<script>
   document.addEventListener('DOMContentLoaded', function() {
     var elements = document.querySelectorAll('.cmd, .prv, .sty');
     attachToggleBehavior(elements);
