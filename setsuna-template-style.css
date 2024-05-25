@@ -56,7 +56,7 @@ br {
   padding:10px;
 }
 
-.health, .points, .stats, .style {
+.health, .points, .stats {
 font-weight: bold;
 display: flex;
 justify-content: space-around;
@@ -64,7 +64,7 @@ text-align:center;
 align-items: center;
 }
 
-.health p, .points p, .stats,  .style p {
+.health p, .points p, .stats p {
 padding: 8px;
 margin: 4px;
 border-radius: 5px;
