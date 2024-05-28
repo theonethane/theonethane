@@ -1,10 +1,5 @@
 <style>
 
-br {
- display: block; /* makes it have a width */
-            content: ""; /* clears default height */
-            margin-top: 6px; /* change this to whatever height you want it */
-}
 
 .PostContainer {
  width: 400px;
@@ -279,6 +274,12 @@ flex:1;
 list-style-position: outside;
 margin:0;
 padding:0;
+}
+
+.popout br {
+ display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 3px; /* change this to whatever height you want it */
 }
 
 
