@@ -1,3 +1,15 @@
+.setsuna {
+--framework-color: #333;
+ --text-color: #fff;
+ --text-toggle-color: #222;
+ --hp-fill-color: #076076;
+ --stat-color: #076076;
+ --cmd-color: 7,96,118;
+ --mastered-color: 222,104,0;
+ --prv-color: #929292;
+ --style-name-color: #076076;
+ --mp-background: linear-gradient(45deg, #001dff 10%, #0092ff);}
+
 .postcontainer {
  width: 400px;
  min-height: 150px;
