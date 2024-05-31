@@ -177,7 +177,7 @@ text-align: center;
 }
 
 
-.container {
+.options-container {
  flex:2;
  align-self: stretch;
  height:fit-content;
