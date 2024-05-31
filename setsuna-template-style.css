@@ -133,7 +133,7 @@ margin-left:-15px;
   align-content:top;
 }
 
-.side-by-side {
+.options {
  display: flex;
  flex-direction:row;
  color:var(--text-color);
@@ -145,7 +145,7 @@ margin-left:-15px;
  font-size: 14px;
 }
 
-.options-container summary {
+.options summary {
 font-weight: 600;
 font-size:14px;
 padding: 6px 6px;
@@ -183,7 +183,7 @@ text-align: center;
  height:fit-content;
  }
 
-.container2 {
+.options-container2 {
  flex:1;
  align-self: stretch;
  }
